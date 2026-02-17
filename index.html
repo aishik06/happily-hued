@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Richa — Artist | Happily Hued</title>
+    <meta name="description" content="Richa's elegant portfolio of paintings, digital art, and sketches." />
+    <meta property="og:title" content="Richa — Artist | Happily Hued" />
+    <meta property="og:description" content="Explore featured artworks and curated series by artist Richa." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://<my-username>.github.io/happily-hued/" />
+    <meta property="og:image" content="https://<my-username>.github.io/happily-hued/assets/art/color-dreams-cover.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Richa — Artist | Happily Hued" />
+    <meta name="twitter:description" content="Explore featured artworks and curated series by artist Richa." />
+    <meta name="twitter:image" content="https://<my-username>.github.io/happily-hued/assets/art/color-dreams-cover.svg" />
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="nav-wrap">
+        <a class="brand" href="./">Happily Hued</a>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a aria-current="page" href="./">Home</a>
+          <a href="gallery/">Gallery</a>
+          <a href="series/">Series</a>
+          <a href="about/">About</a>
+          <a href="contact/">Contact</a>
+          <button class="theme-toggle" type="button" data-theme-toggle>🌙 Dark</button>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="container">
+      <section class="hero section">
+        <div>
+          <h1>Richa — Artist</h1>
+          <p>
+            Richa is a multidisciplinary artist creating atmospheric paintings and digital works that blend memory,
+            movement, and emotion. This portfolio highlights selected works and evolving collections.
+          </p>
+          <div class="button-row">
+            <a class="btn btn-primary" href="gallery/">View Gallery</a>
+            <a class="btn" href="contact/">Contact</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/art/color-dreams-cover.svg" alt="Abstract artwork in warm colors by Richa" />
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="featured-heading">
+        <div class="section-title">
+          <h2 id="featured-heading">Featured Works</h2>
+          <a href="gallery/">Browse all</a>
+        </div>
+        <div class="masonry" data-featured-grid></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">© <span data-year></span> Richa · Happily Hued</div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/gallery.js"></script>
+  </body>
+</html>

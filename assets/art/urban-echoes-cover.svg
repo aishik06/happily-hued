@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Urban Echoes Cover placeholder artwork">
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#9cc3e6"/><stop offset="1" stop-color="#355070"/></linearGradient></defs>
+  <rect width="1200" height="900" fill="url(#g)"/>
+  <circle cx="860" cy="250" r="180" fill="white" opacity="0.16"/>
+  <rect x="120" y="630" width="960" height="120" rx="24" fill="black" opacity="0.2"/>
+  <text x="160" y="705" font-size="64" fill="white" font-family="Inter,Arial,sans-serif">Urban Echoes Cover</text>
+</svg>
