@@ -1,0 +1,180 @@
+{
+  "series": [
+    {
+      "id": "color-dreams",
+      "name": "Color Dreams",
+      "description": "Expressive color studies from Richa's vibrant abstract period.",
+      "coverImage": "dawn-whisper.svg"
+    },
+    {
+      "id": "urban-echoes",
+      "name": "Urban Echoes",
+      "description": "City-inspired compositions translating architecture, light, and rhythm.",
+      "coverImage": "city-after-rain.svg"
+    },
+    {
+      "id": "silent-lines",
+      "name": "Silent Lines",
+      "description": "Minimal sketch-led works focused on line, stillness, and memory.",
+      "coverImage": "quiet-contour-i.svg"
+    }
+  ],
+  "artworks": [
+    {
+      "id": "dawn-whisper",
+      "title": "Dawn Whisper",
+      "year": 2024,
+      "medium": "Oil",
+      "dimensions": "36 x 48 in",
+      "series": "color-dreams",
+      "status": "Available",
+      "price": "Price on request",
+      "description": "A luminous morning palette layered with soft transitions and textured brushwork.",
+      "image": "dawn-whisper.svg",
+      "tags": ["abstract", "warm", "landscape-feel"]
+    },
+    {
+      "id": "river-of-light",
+      "title": "River of Light",
+      "year": 2023,
+      "medium": "Acrylic",
+      "dimensions": "30 x 40 in",
+      "series": "color-dreams",
+      "status": "Sold",
+      "price": "Price on request",
+      "description": "Flowing color bands that evoke movement and reflections across water.",
+      "image": "river-of-light.svg",
+      "tags": ["abstract", "blue", "fluid"]
+    },
+    {
+      "id": "petal-nocturne",
+      "title": "Petal Nocturne",
+      "year": 2022,
+      "medium": "Oil",
+      "dimensions": "24 x 30 in",
+      "series": "color-dreams",
+      "status": "Available",
+      "price": "Price on request",
+      "description": "Nocturnal floral tones and layered depth in crimson-violet hues.",
+      "image": "petal-nocturne.svg",
+      "tags": ["floral", "night", "expressive"]
+    },
+    {
+      "id": "saffron-sky",
+      "title": "Saffron Sky",
+      "year": 2021,
+      "medium": "Oil",
+      "dimensions": "20 x 24 in",
+      "series": "color-dreams",
+      "status": "Available",
+      "price": "Price on request",
+      "description": "A compact atmospheric work with warm saffron light and violet undertones.",
+      "image": "saffron-sky.svg",
+      "tags": ["warm", "small", "study"]
+    },
+    {
+      "id": "city-after-rain",
+      "title": "City After Rain",
+      "year": 2024,
+      "medium": "Acrylic",
+      "dimensions": "32 x 40 in",
+      "series": "urban-echoes",
+      "status": "Available",
+      "price": "Price on request",
+      "description": "Reflective light and fractured forms inspired by rain-soaked city evenings.",
+      "image": "city-after-rain.svg",
+      "tags": ["city", "geometry", "reflection"]
+    },
+    {
+      "id": "signal-and-shadow",
+      "title": "Signal and Shadow",
+      "year": 2023,
+      "medium": "Digital",
+      "dimensions": "4000 x 5000 px",
+      "series": "urban-echoes",
+      "status": "Available",
+      "price": "Price on request",
+      "description": "A digital composition balancing hard structures with soft atmospheric fields.",
+      "image": "signal-and-shadow.svg",
+      "tags": ["digital", "city", "contrast"]
+    },
+    {
+      "id": "metro-rhythm",
+      "title": "Metro Rhythm",
+      "year": 2022,
+      "medium": "Acrylic",
+      "dimensions": "28 x 36 in",
+      "series": "urban-echoes",
+      "status": "Sold",
+      "price": "Price on request",
+      "description": "Linear pulses and repeated marks referencing trains, grids, and motion.",
+      "image": "metro-rhythm.svg",
+      "tags": ["urban", "movement", "linework"]
+    },
+    {
+      "id": "street-lullaby",
+      "title": "Street Lullaby",
+      "year": 2021,
+      "medium": "Acrylic",
+      "dimensions": "22 x 28 in",
+      "series": "urban-echoes",
+      "status": "Available",
+      "price": "Price on request",
+      "description": "Muted storefront colors and soft signage translated into painterly geometry.",
+      "image": "street-lullaby.svg",
+      "tags": ["city", "muted", "evening"]
+    },
+    {
+      "id": "quiet-contour-i",
+      "title": "Quiet Contour I",
+      "year": 2024,
+      "medium": "Sketch",
+      "dimensions": "18 x 24 in",
+      "series": "silent-lines",
+      "status": "Available",
+      "price": "Price on request",
+      "description": "A graphite study where continuous lines trace body memory and pause.",
+      "image": "quiet-contour-i.svg",
+      "tags": ["minimal", "graphite", "line"]
+    },
+    {
+      "id": "quiet-contour-ii",
+      "title": "Quiet Contour II",
+      "year": 2024,
+      "medium": "Sketch",
+      "dimensions": "18 x 24 in",
+      "series": "silent-lines",
+      "status": "Available",
+      "price": "Price on request",
+      "description": "Companion contour drawing exploring asymmetry and silence.",
+      "image": "quiet-contour-ii.svg",
+      "tags": ["minimal", "drawing", "line"]
+    },
+    {
+      "id": "single-line-memory",
+      "title": "Single Line Memory",
+      "year": 2022,
+      "medium": "Sketch",
+      "dimensions": "16 x 20 in",
+      "series": "silent-lines",
+      "status": "Available",
+      "price": "Price on request",
+      "description": "An uninterrupted line gesture preserving movement in one breath.",
+      "image": "single-line-memory.svg",
+      "tags": ["gesture", "line", "paper"]
+    },
+    {
+      "id": "breath-space",
+      "title": "Breath Space",
+      "year": 2023,
+      "medium": "Digital",
+      "dimensions": "3500 x 4500 px",
+      "series": "silent-lines",
+      "status": "Sold",
+      "price": "Price on request",
+      "description": "Minimal digital linework and grain textures designed as a meditative field.",
+      "image": "breath-space.svg",
+      "tags": ["digital", "minimal", "calm"]
+    }
+  ]
+}
