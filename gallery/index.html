@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gallery — Richa | Happily Hued</title>
+    <meta name="description" content="Browse all artworks by Richa with filters by medium, series, and year." />
+    <meta property="og:title" content="Gallery — Richa | Happily Hued" />
+    <meta property="og:description" content="Browse all artworks by Richa with filters by medium, series, and year." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://<my-username>.github.io/happily-hued/gallery/" />
+    <meta property="og:image" content="https://<my-username>.github.io/happily-hued/assets/art/urban-echoes-cover.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Gallery — Richa | Happily Hued" />
+    <meta name="twitter:description" content="Browse all artworks by Richa with filters by medium, series, and year." />
+    <meta name="twitter:image" content="https://<my-username>.github.io/happily-hued/assets/art/urban-echoes-cover.svg" />
+    <link rel="icon" href="../assets/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="nav-wrap">
+        <a class="brand" href="../">Happily Hued</a>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="../">Home</a>
+          <a aria-current="page" href="./">Gallery</a>
+          <a href="../series/">Series</a>
+          <a href="../about/">About</a>
+          <a href="../contact/">Contact</a>
+          <button class="theme-toggle" type="button" data-theme-toggle>🌙 Dark</button>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="container section">
+      <header class="section-title">
+        <div>
+          <h1>Gallery</h1>
+          <p class="muted">Filter artworks by medium, series, and year.</p>
+        </div>
+      </header>
+
+      <section data-art-detail></section>
+
+      <form class="filters" aria-label="Artwork filters" onsubmit="return false;">
+        <label>
+          Medium
+          <select id="filter-medium">
+            <option value="">All mediums</option>
+            <option value="Oil">Oil</option>
+            <option value="Acrylic">Acrylic</option>
+            <option value="Digital">Digital</option>
+            <option value="Sketch">Sketch</option>
+          </select>
+        </label>
+        <label>
+          Series
+          <select id="filter-series">
+            <option value="">All series</option>
+          </select>
+        </label>
+        <label>
+          Year
+          <select id="filter-year">
+            <option value="">All years</option>
+          </select>
+        </label>
+      </form>
+
+      <section class="masonry" data-gallery-grid aria-live="polite"></section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">© <span data-year></span> Richa · Happily Hued</div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/gallery.js"></script>
+  </body>
+</html>
